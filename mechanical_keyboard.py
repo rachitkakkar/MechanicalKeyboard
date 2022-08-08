@@ -2,7 +2,7 @@
 
 # Author: Rachit Kakkar
 # Last Updated: August 7th, 2022
-# Description: Make any keyboard sound like a mechanical one by playing a sound on a keypress
+# Description: Make any keyboard sound like a mechanical one by playing a sound on a keypress!
 from playsound import playsound
 from pynput.keyboard import Listener
 from random import randint
