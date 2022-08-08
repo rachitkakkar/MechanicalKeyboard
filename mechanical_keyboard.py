@@ -18,9 +18,10 @@ def on_release(key): # Set released to true on key release
     global released
     released = True
 
+
+print('MechanicalKeyboard by Rachit Kakkar has launched!')
+print('You should hear sounds now, if on MacOS please accept permissions!')
+
 while True:
     with Listener(on_press=on_press, on_release=on_release) as listener:
         listener.join()
-
-    print('MechanicalKeyboard by Rachit Kakkar has launched!')
-    print('You should hear sounds now, if on MacOS please accept permissions!')
