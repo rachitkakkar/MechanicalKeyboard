@@ -18,7 +18,6 @@ def on_release(key): # Set released to true on key release
     global released
     released = True
 
-
 print('MechanicalKeyboard by Rachit Kakkar has launched!')
 print('You should hear sounds now, if on MacOS please accept permissions!')
 
