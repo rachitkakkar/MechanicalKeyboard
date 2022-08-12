@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # Author: Rachit Kakkar
 # Last Updated: August 7th, 2022
 # Description: Make any keyboard sound like a mechanical one by playing a sound on a keypress!
